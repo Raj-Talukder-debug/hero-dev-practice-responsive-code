@@ -282,3 +282,97 @@ footer .footer-container {
 
     color: #757575
 }
+
+.hide{
+    display: none !important;
+}
+
+
+@media screen and (max-width:576px) {
+
+/* common class */
+.container {
+    width: 90%;
+    
+}
+
+.btn-grp{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.btn-grp{
+    justify-content: center;
+}
+
+#about .about-container{
+    padding: 20px;
+}
+
+
+/* all */
+
+header {
+    background: url(../images/header_bg.png), #FFF8F3;
+    background-position:  bottom right;
+    background-repeat: no-repeat;
+    
+}
+
+
+nav{
+    gap: 20px;
+}
+
+
+
+nav .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+#banner{
+    margin: 20px;
+    gap: 20px;
+    text-align: center;
+}
+
+#banner .banner-image img{
+
+    width: 100%;
+}
+
+
+#banner .banner-content h1{
+    font-size: 43px;
+}
+
+    #about, #skills, #resume {
+    padding-top: 60px;
+}
+    
+
+.section-heading h2{
+    font-size: 30px;
+}
+
+#skills .skills-container .skill-box , #about .about-container .about-info , nav , #banner{
+    flex-direction: column;
+    gap: 24px;
+}
+
+#about .about-container .about-info{
+    gap: 24px;
+}
+
+
+.skill-box .skill-card{
+    max-width: 100%;
+}
+
+
+
+}
