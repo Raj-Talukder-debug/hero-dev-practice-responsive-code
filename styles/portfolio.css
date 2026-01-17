@@ -359,7 +359,7 @@ nav .menu {
     font-size: 30px;
 }
 
-#skills .skills-container .skill-box , #about .about-container .about-info , nav , #banner{
+#skills .skills-container .skill-box , #about .about-container .about-info , nav , #banner , footer .footer-container{
     flex-direction: column;
     gap: 24px;
 }
@@ -373,6 +373,13 @@ nav .menu {
     max-width: 100%;
 }
 
+
+
+
+.footer-container form input[type="text"], .footer-container form textarea {
+    width: 100%;
+    
+}
 
 
 }
